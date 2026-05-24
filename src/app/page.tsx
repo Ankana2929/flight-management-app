@@ -331,12 +331,12 @@ const expensiveFlight =
       : "bg-gray-100 text-black"
     }`}
     >
+      <h1 className="text-4xl font-bold text-blue-700">
+          Flight Management System
+        </h1>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
       <div className="flex justify-between items-center mb-10">
-        <h1 className="text-4xl font-bold text-blue-700">
-          Flight Management System
-        </h1>
         
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 mb-8">
 
